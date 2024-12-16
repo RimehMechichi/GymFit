@@ -1,0 +1,27 @@
+{
+    "name": "event-service",
+    "version": "1.0.0",
+    "description": "A microservice for managing gym Events .",
+    "main": "server.js",
+    "scripts": {
+      "start":"node src/server.js",
+      "dev": "nodemon server.js"
+    },
+    "keywords": ["nodejs", "express", "microservices", "event-service", "gym"],
+    "author": "Mayssa Ben Hammouda",
+    "license": "MIT",
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "body-parser": "^1.20.2",
+      "dotenv": "^16.1.4",
+      "express": "^4.18.2",
+      "mongoose": "^7.4.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
+  
